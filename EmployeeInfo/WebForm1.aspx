@@ -44,14 +44,14 @@
         <div class="nuevoEstilo3"> 
             &nbsp;&nbsp;&nbsp; 
             <asp:Label ID="Label2" runat="server" Text="Nombre" Font-Names="Alef" Width="100px"></asp:Label>  &nbsp; &nbsp; 
-            <asp:TextBox ID="TextBox2" runat="server" Height="24px" Width="230px"></asp:TextBox> &nbsp; &nbsp;&nbsp;
+            <asp:TextBox ID="Nombre" runat="server" Height="24px" Width="230px"></asp:TextBox> &nbsp; &nbsp;&nbsp;
             <asp:Label ID="Label3" runat="server" Text="Apellido" Font-Names="Alef" Width="100px"></asp:Label> &nbsp; &nbsp;&nbsp;
             <asp:TextBox ID="Apellido" runat="server" Height="24px" Width="230px"></asp:TextBox>
             <br />  
             <br />  
             &nbsp;&nbsp;  
             <asp:Label ID="Label4" runat="server" Text="Código" Font-Names="Alef" Width="100px"></asp:Label> &nbsp; &nbsp; &nbsp;
-            <asp:TextBox ID="TextBox1" runat="server" Height="24px" Width="230px"></asp:TextBox> &nbsp; &nbsp; &nbsp; 
+            <asp:TextBox ID="Codigo" runat="server" Height="24px" Width="230px"></asp:TextBox> &nbsp; &nbsp; &nbsp; 
             <asp:Label ID="Label6" runat="server" Text="Rol" Font-Names="Alef" Width="100px"></asp:Label> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:DropDownList ID="Rol" runat="server" AutoPostBack="True" Width="230px" Height="24px"></asp:DropDownList> &nbsp; &nbsp; &nbsp;
             <br />  
@@ -60,7 +60,7 @@
             <asp:Label ID="Label5" runat="server" Text="Posición" Font-Names="Alef" Width="100px"></asp:Label> 
             <br />  
             &nbsp;&nbsp;  
-            <asp:RadioButtonList ID="Posición" runat="server" AutoPostBack="True" RepeatLayout="Flow" Width="200px">
+            <asp:RadioButtonList ID="Posicion" runat="server" AutoPostBack="True" RepeatLayout="Flow" Width="200px" OnSelectedIndexChanged="Posición_SelectedIndexChanged">
                 <asp:ListItem Selected="True">Trabajador</asp:ListItem>
                 <asp:ListItem>Jefe</asp:ListItem>
                 <asp:ListItem>Vicepresidente</asp:ListItem>
@@ -68,7 +68,7 @@
             </asp:RadioButtonList>
             <br /> 
             <br />
-             &nbsp;  &nbsp;  &nbsp;<asp:Button ID="Grabar" runat="server" Text="Grabar" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             &nbsp;  &nbsp;  &nbsp;<asp:Button ID="Grabar" runat="server" Text="Grabar" OnClick="Grabar_Click" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:Button ID="Limpiar" runat="server" Text="Limpiar" />
             &nbsp;
             <br />

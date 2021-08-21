@@ -42,13 +42,13 @@ namespace EmployeeInfo
         protected global::System.Web.UI.WebControls.Label Label2;
 
         /// <summary>
-        /// Control TextBox2.
+        /// Control Nombre.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox2;
+        protected global::System.Web.UI.WebControls.TextBox Nombre;
 
         /// <summary>
         /// Control Label3.
@@ -78,13 +78,13 @@ namespace EmployeeInfo
         protected global::System.Web.UI.WebControls.Label Label4;
 
         /// <summary>
-        /// Control TextBox1.
+        /// Control Codigo.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.WebControls.TextBox Codigo;
 
         /// <summary>
         /// Control Label6.
@@ -114,13 +114,13 @@ namespace EmployeeInfo
         protected global::System.Web.UI.WebControls.Label Label5;
 
         /// <summary>
-        /// Control Posición.
+        /// Control Posicion.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList Posición;
+        protected global::System.Web.UI.WebControls.RadioButtonList Posicion;
 
         /// <summary>
         /// Control Grabar.
