@@ -13,6 +13,7 @@ namespace EmployeeInfo
         {
             InitPositionRol();
         }
+
         private void InitPositionRol()
         {
             Rol.Items.Clear();
@@ -64,6 +65,16 @@ namespace EmployeeInfo
             InfoLabel.Text = " Empleado: " + Nombre.Text + " " + Apellido.Text +
             " Codigo: " + Codigo.Text + " Posición: " + posicion;
             Posicion.SelectedIndex = 0;
+        }
+
+        protected void Limpiar_Click(object sender, EventArgs e)
+        {
+            Nombre.Text = "";
+            Apellido.Text = "";
+            Codigo.Text = "";
+            InitPositionRol();
+            Posicion.SelectedIndex = 0;
+            InfoLabel.Text = "";
         }
     }
 }
